@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/netherite_sword"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data":6190026}, "model": "custom/aoo_diamond_sword"},
+    {"predicate": {"custom_model_data":6190027}, "model": "custom/aoo_golden_sword"},
+    {"predicate": {"custom_model_data":6190028}, "model": "custom/aoo_iron_sword"},
+    {"predicate": {"custom_model_data":6190029}, "model": "custom/aoo_netherite_sword"},
+    {"predicate": {"custom_model_data":6190030}, "model": "custom/excaliaoo_sword"}
+  ]
+}
