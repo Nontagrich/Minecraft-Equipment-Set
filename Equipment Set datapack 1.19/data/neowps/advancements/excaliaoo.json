@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "The Conqueror",
+            "color": "gold",
+            "bold": true
+        },
+        "description": {
+            "text": "Excaliaoo Sword",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:beacon"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "excaliaoo sword": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "excaliaoo_sword_recipe"
+            }
+        }
+    },
+    "parent": "neowps:root"
+}

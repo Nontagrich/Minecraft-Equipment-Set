@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "Coal is Basic",
+            "color": "black",
+            "bold": true
+        },
+        "description": {
+            "text": "create coal equipment",
+            "color": "gold"
+        },
+        "icon": {
+            "item": "minecraft:coal"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:coal_shovel_recipe"
+            }
+        }
+    },
+    "rewards": {
+        "function": "neowps:give_coal_shovel"
+    }
+}

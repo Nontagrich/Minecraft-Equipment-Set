@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "Ultimate Warrior",
+            "color": "dark_red"
+        },
+        "description": {
+            "text": "High Level of State",
+            "color": "gold"
+        },
+        "icon": {
+            "item": "minecraft:diamond_sword"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "diamond sword": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "aoo_diamond_sword_recipe"
+            }
+        }
+    },
+    "parent": "neowps:defender"
+}

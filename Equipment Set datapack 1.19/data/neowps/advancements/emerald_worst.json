@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "Worst Trading Ever!!",
+            "color": "dark_red"
+        },
+        "description": {
+            "text": "hit villager"
+        },
+        "icon": {
+            "item": "minecraft:dirt"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "villager": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager"
+                }
+            }
+        }
+    },
+    "parent": "neowps:emerald_trade"
+}

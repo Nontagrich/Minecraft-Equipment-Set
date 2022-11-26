@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#E#",
+        "EBE",
+        "#I#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:knowledge_book"
+        },
+        "E": {
+            "item": "minecraft:emerald_block"
+        },
+        "B": {
+            "item": "minecraft:beacon"
+        },
+        "I": {
+            "item": "minecraft:iron_sword"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

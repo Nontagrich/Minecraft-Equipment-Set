@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "Final Boss!",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Description"
+        },
+        "icon": {
+            "item": "minecraft:dragon_head"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "ender dragon": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ender_dragon"
+                }
+            }
+        }
+    },
+    "parent": "neowps:kill_wither"
+}

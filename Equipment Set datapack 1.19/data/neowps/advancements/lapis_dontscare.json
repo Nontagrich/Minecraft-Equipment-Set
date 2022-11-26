@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Don't scare you are strong!!",
+            "color": "dark_blue"
+        },
+        "description": {
+            "text": "let's fight!!",
+            "color": "gold"
+        },
+        "icon": {
+            "item": "minecraft:lapis_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:entity_hurt_player"
+        }
+    },
+    "parent": "neowps:lapis"
+}

@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "Ultimate Speed",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "High Level of Speed",
+            "color": "gold"
+        },
+        "icon": {
+            "item": "minecraft:golden_sword"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "gold sword": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "aoo_golden_sword_recipe"
+            }
+        }
+    },
+    "parent": "neowps:aoo"
+}

@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "Amethyst is Useful!!"
+        },
+        "description": {
+            "text": "Description"
+        },
+        "icon": {
+            "item": "minecraft:name_tag"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:amethyst_shovel_recipe"
+            }
+        }
+    },
+    "rewards": {
+        "function": "neowps:give_amethyst_shovel"
+    }
+}

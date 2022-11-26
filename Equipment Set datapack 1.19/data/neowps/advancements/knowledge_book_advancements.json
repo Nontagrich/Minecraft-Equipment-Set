@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Aoo Equipment!?",
+            "color": "red",
+            "bold": true
+        },
+        "description": {
+            "text": "knowleged book!?",
+            "color": "gold"
+        },
+        "icon": {
+            "item": "minecraft:nether_star"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:knowledge_book_recipe"
+            }
+        }
+    },
+    "parent": "neowps:root"
+
+}

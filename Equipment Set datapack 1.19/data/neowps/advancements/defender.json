@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "Ultimate Defender",
+            "color": "blue"
+        },
+        "description": {
+            "text": "High Level of Resistance",
+            "color": "gold"
+        },
+        "icon": {
+            "item": "minecraft:iron_sword"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "iron sword": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "aoo_iron_sword_recipe"
+            }
+        }
+    },
+    "parent": "neowps:speed"
+}

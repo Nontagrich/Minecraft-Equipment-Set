@@ -1,0 +1,53 @@
+{
+    "display": {
+        "title": {
+            "text": "Amethyst is Useful!",
+            "color": "dark_purple",
+            "bold": true
+        },
+        "description": {
+            "text": "create all amethysl equipment",
+            "color": "gold"
+        },
+        "icon": {
+            "item": "minecraft:amethyst_shard"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "amethyst_pickaxe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:amethyst_pickaxe_recipe"
+            }
+        },
+        "amethyst_axe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:amethyst_axe_recipe"
+            }
+        },
+        "amethyst_shovel": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:amethyst_shovel_recipe"
+            }
+        },
+        "amethyst_hoe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:amethyst_hoe_recipe"
+            }
+        },
+        "amethyst_sword": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:amethyst_sword_recipe"
+            }
+        }
+    },
+    "parent": "neowps:root"
+}

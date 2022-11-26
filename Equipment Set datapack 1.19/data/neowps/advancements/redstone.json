@@ -1,0 +1,53 @@
+{
+    "display": {
+        "title": {
+            "text": "Red is Main",
+            "color": "dark_red",
+            "bold": true
+        },
+        "description": {
+            "text": "create all redstone equipment",
+            "color": "gold"
+        },
+        "icon": {
+            "item": "minecraft:redstone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "redstone_pickaxe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:redstone_pickaxe_recipe"
+            }
+        },
+        "redstone_axe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:redstone_axe_recipe"
+            }
+        },
+        "redstone_shovel": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:redstone_shovel_recipe"
+            }
+        },
+        "redstone_hoe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:redstone_hoe_recipe"
+            }
+        },
+        "redstone_sword": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:redstone_sword_recipe"
+            }
+        }
+    },
+    "parent": "neowps:root"
+}

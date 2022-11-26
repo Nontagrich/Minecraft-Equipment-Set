@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "Red is Main!"
+        },
+        "description": {
+            "text": "Redstone crafting!?"
+        },
+        "icon": {
+            "item": "minecraft:name_tag"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:redstone_shovel_recipe"
+            }
+        }
+    },
+    "rewards": {
+        "function": "neowps:give_redstone_shovel"
+    }
+}

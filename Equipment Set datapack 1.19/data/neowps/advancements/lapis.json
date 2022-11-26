@@ -1,0 +1,55 @@
+{
+    
+    "display": {
+        "title": {
+            "text": "Lapis Lazuli",
+            "color": "dark_blue",
+            "bold": true
+        },
+        "description": {
+            "text": "create all lapis equipment",
+            "color": "gold",
+            "bold": false
+        },
+        "icon": {
+            "item": "minecraft:lapis_lazuli"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "lapis_pickaxe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:lapis_pickaxe_recipe"
+            }
+        },
+        "lapis_axe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:lapis_axe_recipe"
+            }
+        },
+        "lapis_shovel": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:lapis_shovel_recipe"
+            }
+        },
+        "lapis_hoe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:lapis_hoe_recipe"
+            }
+        },
+        "lapis_sword": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:lapis_sword_recipe"
+            }
+        }
+    },
+    "parent": "neowps:root"
+}

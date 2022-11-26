@@ -1,0 +1,54 @@
+{
+    
+    "display": {
+        "title": {
+            "text": "Coal is Basic",
+            "color": "black",
+            "bold": true
+        },
+        "description": {
+            "text": "create all coal equipment",
+            "color": "gold"
+        },
+        "icon": {
+            "item": "minecraft:coal"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "coal_pickaxe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:coal_pickaxe_recipe"
+            }
+        },
+        "coal_axe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:coal_axe_recipe"
+            }
+        },
+        "coal_shovel": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:coal_shovel_recipe"
+            }
+        },
+        "coal_hoe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:coal_hoe_recipe"
+            }
+        },
+        "coal_sword": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:coal_sword_recipe"
+            }
+        }
+    },
+    "parent": "neowps:root"
+}

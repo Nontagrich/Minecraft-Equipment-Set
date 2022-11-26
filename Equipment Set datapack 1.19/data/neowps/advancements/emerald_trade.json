@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Trade is Best!",
+            "color": "green"
+        },
+        "description": {
+            "text": "trade with villager",
+            "color": "gold"
+        },
+        "icon": {
+            "item": "minecraft:emerald_ore"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "trade": {
+            "trigger": "minecraft:villager_trade"
+        }
+    },
+    "parent": "neowps:emerald"
+}

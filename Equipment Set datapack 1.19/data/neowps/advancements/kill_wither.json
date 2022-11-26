@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "Secondary Boss!",
+            "color": "black",
+            "bold": true
+        },
+        "description": {
+            "text": "eliminate a wither",
+            "color": "gold"
+        },
+        "icon": {
+            "item": "minecraft:wither_skeleton_skull"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "wither": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:wither"
+                }
+            }
+        }
+    },
+    "parent": "neowps:excaliaoo"
+}

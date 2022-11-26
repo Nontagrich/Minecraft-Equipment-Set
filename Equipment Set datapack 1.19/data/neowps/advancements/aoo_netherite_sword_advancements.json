@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Ultimate Strength",
+            "color": "dark_gray"
+        },
+        "description": {
+            "text": "High Level of Strength",
+            "color": "gold"
+        },
+        "icon": {
+            "item": "minecraft:netherite_sword"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:aoo_netherite_sword_recipe"
+            }
+        }
+    },
+    "rewards": {
+        "function": "neowps:give_aoo_netherite_sword"
+    }
+}

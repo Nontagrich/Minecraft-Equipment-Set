@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Healing is not enough?",
+            "color": "red"
+        },
+        "description": {
+            "text": "why are you die?",
+            "color": "gold"
+        },
+        "icon": {
+            "item": "minecraft:redstone_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "heal": {
+            "trigger": "minecraft:entity_killed_player"
+        }
+    },
+    "parent": "neowps:redstone"
+}

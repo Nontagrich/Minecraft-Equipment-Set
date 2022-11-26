@@ -1,0 +1,54 @@
+{
+    
+    "display": {
+        "title": {
+            "text": "Not Just For Sale!!",
+            "color": "dark_green"
+        },
+        "description": {
+            "text": "create all emerald equipment",
+            "color": "gold"
+        },
+        "icon": {
+            "item": "minecraft:emerald"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "emerald_pickaxe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:emerald_pickaxe_recipe"
+            }
+        },
+        "emerald_axe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:emerald_axe_recipe"
+            }
+        },
+        "emerald_shovel": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:emerald_shovel_recipe"
+            }
+        },
+        "emerald_hoe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:emerald_hoe_recipe"
+            }
+        },
+        "emerald_sword": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:emerald_sword_recipe"
+            }
+        }
+    },
+    
+    "parent": "neowps:root"
+}
